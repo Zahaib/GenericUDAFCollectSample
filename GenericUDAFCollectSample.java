@@ -15,7 +15,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-//package com.conviva.d3.udf;
 import java.util.ArrayList;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -35,7 +34,7 @@ import org.apache.hadoop.hive.serde2.typeinfo.PrimitiveTypeInfo;
 import org.apache.hadoop.hive.serde2.typeinfo.TypeInfo;
 
 /**
- * GenericUDAFCollectSet
+ * GenericUDAFCollectSample
  */
 @Description(name = "collect_sample", value = "_FUNC_(x, sample_threshold) - Returns a list of objects")
 public class GenericUDAFCollectSample extends AbstractGenericUDAFResolver {
